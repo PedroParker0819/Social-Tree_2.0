@@ -1,0 +1,82 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-image: url(1176011.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.61); /* Cor de fundo com transparência */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave (opcional) */
+}
+
+#profile {
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img {
+    width: 190px; 
+    border-radius: 500px;   
+}
+
+p {
+    font-family:'Poppins', sans-serif ;
+    font-weight: 100px;
+    line-height: 100px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family:'Poppins', sans-serif ;
+}
+
+ul li a{
+    font-family:'Poppins', sans-serif ;
+    border: 1px solid red;
+    display: flex;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    background: transparent;
+    border-radius: 35px;
+    backdrop-filter: blur(4px);-webkit-backdrop-filter: blur(4px);
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background .5s;
+    background: #dc143c60;
+}
+
+ul li a:hover {
+    background-color: #dc143c;
+    border: 1.5px solid black;
+}
+
+ul li:nth-child(1) a {
+    background-color: black;
+    color: white;
+}
+
+ul li:nth-child(1) a:hover {
+    background-color:#dc143c;
+}
